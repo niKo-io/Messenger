@@ -1,0 +1,82 @@
+.registration {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration_wrapper {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fromHead {
+  padding-bottom: 15px;
+}
+
+.fromHead h1 {
+  padding-top: 50px;
+  color: var(--font-color);
+  font-size: 35px;
+  font-family: var(--primary-fontfamily);
+  font-weight: 700;
+}
+
+.fromHead h2 {
+  color: var(--black-color);
+  font-size: 20px;
+  font-family: var(--primary-fontfamily);
+  font-weight: 400;
+}
+
+.text-width {
+  width: 350px;
+}
+
+.formButton button {
+  height: 67px;
+  width: 350px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 86px;
+  background-color: var(--theme-color) !important;
+  color: var(--white-color) !important;
+  font-size: 20px;
+  font-family: var(--primary-fontfamily) !important;
+  font-weight: 600;
+  display: block;
+}
+
+.text {
+  width: 350px;
+  text-align: center;
+}
+
+.text p {
+  font-family: var(--seconday-fontfamily);
+  font-size: 14px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.link__button {
+  color: var(--orange-color) !important;
+}
+
+.password__feild {
+  position: relative;
+  width: 350px;
+}
+
+.icon__feild {
+  position: absolute;
+  top: 60%;
+  right: 5%;
+  transform: translatey(-50%);
+  cursor: pointer;
+}
