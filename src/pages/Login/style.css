@@ -1,11 +1,88 @@
-.signin{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+.signin {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 
-.signin_wrapper{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 50px;
+.login {
+  margin-top: 40%;
+  transform: translateY(-50%);
+  padding-left: 100px;
+}
+
+.login h1 {
+  font-family: var(--primary-fontfamily);
+  font-weight: 700;
+  font-size: 33px;
+  color: var(--font-color);
+}
+
+.signin_wrapper {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 50px;
+}
+
+.signin_password_feild {
+  position: relative;
+  width: 350px;
+}
+
+.login_icon__feild {
+  position: absolute;
+  top: 60%;
+  right: 6%;
+  transform: translatey(-50%);
+  cursor: pointer;
+}
+
+.SigninButton button {
+  height: 67px;
+  width: 350px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 86px;
+  background-color: var(--theme-color) !important;
+  color: var(--white-color) !important;
+  font-size: 20px;
+  font-family: var(--primary-fontfamily) !important;
+  font-weight: 600;
+  display: block;
+}
+
+.signin_text {
+  margin-top: 20px;
+}
+
+.signin_text p {
+  font-family: var(--secondary-fontfamily);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.inputs {
+  width: 350px;
+}
+
+.inputs input{
+  color: var(--font-color);
+  font-family: var(--primary-fontfamily);
+}
+
+.inputs label {
+  width: 350px;
+  font-family: var(--primary-fontfamily);
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.forgot_pass {
+  padding: 10px 0; 
+}
+
+.forgot_pass span {
+  font-family: var(--primary-fontfamily);
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
 }

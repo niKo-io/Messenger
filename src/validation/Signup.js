@@ -16,3 +16,13 @@ export const Signup = Yup.object({
     )
     .required("Please enter your password"),
 });
+
+export const SignIn = Yup.object({
+  email: Yup.string()
+    .matches(
+      /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
+      "Please enter a valid email address"
+    )
+    .required("Please enter your email address"),
+  password: Yup.string().min(8).required("Please enter your password"),
+});

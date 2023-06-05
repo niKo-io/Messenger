@@ -100,7 +100,7 @@ const Forms = () => {
             label="Email Address"
             variant="outlined"
             type="email"
-            className="text-width"
+            className="inputs"
             margin="normal"
             name="email"
             onChange={formik.handleChange}
@@ -113,7 +113,7 @@ const Forms = () => {
             label="Full Name"
             variant="outlined"
             type="text"
-            className="text-width"
+            className="inputs"
             margin="normal"
             name="fullname"
             onChange={formik.handleChange}
@@ -127,7 +127,7 @@ const Forms = () => {
               id="outlined-basic-"
               label="Password"
               variant="outlined"
-              className="text-width"
+              className="inputs"
               margin="normal"
               name="password"
               onChange={formik.handleChange}
@@ -153,7 +153,7 @@ const Forms = () => {
         </form>
         <div className="text">
           <p>
-            Already have an account ?{" "}
+            Already have an account ?
             <Link className="link__button" to={"/login"}>
               Sign In
             </Link>

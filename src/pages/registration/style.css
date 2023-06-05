@@ -35,8 +35,15 @@
   font-weight: 400;
 }
 
-.text-width {
+.inputs {
   width: 350px;
+}
+
+.inputs label {
+  width: 350px;
+  font-family: var(--primary-fontfamily);
+  font-size: 20px;
+  font-weight: 600px;
 }
 
 .formButton button {
@@ -56,6 +63,7 @@
 .text {
   width: 350px;
   text-align: center;
+  font-family: var(--primary-fontfamily);
 }
 
 .text p {
@@ -63,6 +71,7 @@
   font-size: 14px;
   padding-top: 20px;
   margin: 0 auto;
+  color: var(--black-color);
 }
 .link__button {
   color: var(--orange-color) !important;

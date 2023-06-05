@@ -3,6 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import firebaseConfig from "./BDconnection/firebaseConfig";
+import { Provider } from "react-redux";
+import Store from "./Feature/Store/Store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <Provider store={Store}>
+    <App />,
+  </Provider>
+);
